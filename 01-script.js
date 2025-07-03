@@ -1,12 +1,33 @@
+//alert("oi")
 
-//sq9 - ex 9
+//sq2 ex3 - Dias da semana
+let numero 
 
-let senha 
+numero = prompt("Digite um numero de 1 à 7: ")
+if(numero== 1){
+    alert("Hoje é Domingo")
+}
+if(numero== 2){
+    alert("Hoje é Segunda-feira")
+}
+if(numero== 3){
+    alert("Hoje é Terça-feira")
+}if(numero== 4){
+    alert("Hoje é Quarta-feira")
+}
+if(numero== 5){
+    alert("Hoje é Quinta-feira")
+}
+if(numero== 6){
+    alert("Hoje é Sexta-feira")
+}
+if(numero== 7){
+    alert("Hoje é Sabádo")
+}
 
-senha = prompt("Digite a senha ")
-
-if(senha == "Abracadabra"){
-alert("Senha está correta, bem vido ao mundo secreto!")
-}else{
-    alert("corre que vou chamar a polícia")
+if(numero > 7){
+    alert("Esse dia não existe, pessoa doida!")
+}
+if(numero < 1){
+    alert("Esse dia não existe, pessoa doida!")
 }

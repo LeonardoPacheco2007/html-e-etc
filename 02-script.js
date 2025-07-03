@@ -1,10 +1,12 @@
-let idade 
 
-idade = prompt("Digite sua idade para saber se é elegivel!")
+//sq9 - ex 9
 
-if(idade >= 18){
-    alert("Você é velho suficiente para ser elegivel, parabéns!")
-}else
-{
-    alert("Infelismente você ainda é muito novo para se eleger!")
+let senha 
+
+senha = prompt("Digite a senha ")
+
+if(senha == "Abracadabra"){
+alert("Senha está correta, bem vido ao mundo secreto!")
+}else{
+    alert("corre que vou chamar a polícia")
 }
