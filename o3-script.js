@@ -1,6 +1,8 @@
 let somatotal = 0
 
-do{
+while (somatotal < 11)
+{
     somatotal=somatotal+1
     console.log(somatotal)
-}while(somatotal<5)
+}
+
